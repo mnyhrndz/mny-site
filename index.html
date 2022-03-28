@@ -1,20 +1,52 @@
 <html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1">   
-         <link rel="stylesheet" href="style.css"/>
-         <script src="index.js"></script>
-        <title> mny </title>
-    </head>
-    <body>
-        <div class="header">
-            <button onclick="myFunction()">Toggle dark mode</button>
-            <ul>
-                <li><a title="Home" href="index.html"></a></li>
-                <li><a title="Albums" href="albums.html"></a></li>
-                <li><a title="projects" href="projects.html"></a></li>
-               
-            </ul>
-        </div>
-    </body>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<script src="index.js"></script>
+		<script src="https://kit.fontawesome.com/16703e27f3.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+  		<section class="flex-sect" id="ito4i">
+    		<div class="container-width">
+    		</div>
+    		<div class="flex-title" id="title">Mānny
+					<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a class="twt" onmouseover="twitterH()" href="#">Twitter</a>
+    <a href="#">Albums</a>
+    <a href="#">Projects</a>
+  </div>
+</div>
+
+<span id="arrow" style="font-size:30px;cursor:pointer" onclick="openNav()"> ❯❯
+ </span>
+					
+    		</div>
+    		<div class="flex-desc" id="dexc">15-year-old <b>System Architect</b> and student from the United States.
+    		</div>
+  		</section>
+  		<section class="am-sect" id="end">
+    		<div class="container-width">
+					<span id="time"> </span>
+    		</div>
+  		</section>	
+			</section>
+  		<section class="social" id="social">
+    		<div class="container-width">
+					<a  class="icon-block" href="https://twitter.com/mnydev">
+						<i id="twitterI" class="fa-brands fa-twitter"></i>
+					</a>
+					<a>
+						<i class="fa-brands fa-github"></i>
+					</a>
+					<a>
+						<i class="fa-brands fa-discord"></i>
+					</a>
+					<a>
+						<i class="fa-solid fa-mailbox"></i>
+					</a>
+    		</div>
+  		</section>	
+		
+	</body>
 </html>

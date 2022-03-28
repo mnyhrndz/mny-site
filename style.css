@@ -1,12 +1,144 @@
-body {
-    padding: 25px;
-    background-color: white;
-    color: black;
-    font-size: 25px;
-
+5* {
+  box-sizing: border-box;
 }
 
-.dark-mode {
-    background-color: black;
-    color: white;
+html {
+	background-color: #1c1c1e;
+}
+
+body {
+  margin: 0;
+}
+.container-width{
+  width:90%;
+  max-width:1150px;
+  margin:0 auto;
+}
+.flex-sect{
+  background-color: #1c1c1e;
+  padding:100px 0;
+  font-family:Helvetica, serif;
+}
+.flex-title{
+  margin-bottom:15px;
+  font-size:2em;
+  text-align: left;
+  font-weight:700;
+  color:#555;
+  padding:5px;
+}
+.flex-desc{
+  margin-bottom:55px;
+  font-size:1em;
+  color:rgba(0, 0, 0, 0.5);
+  text-align: left;
+  padding:5px;
+}
+.am-sect{
+  padding-top:100px;
+  padding-bottom:100px;
+  font-family:Helvetica, serif;
+}
+#title{
+  float: left;
+  display:flex;
+  position:absolute;
+  left:85px;
+  font-size:5em;
+  color:#eeeeee;
+}
+#end{
+  color:#ffffff;
+}
+#dexc{
+  float: left;
+  position: absolute;
+  display:flex;
+  top:200px;
+  left:85px;
+  font-size:1.2em;
+	color: white;
+}
+#ito4i{
+  color:#ffffff;
+}
+@media (max-width: 480px){
+  #i1hav{
+    position:relative;
+    display:inline-block;
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+
+.overlay a.twt:hover{
+	color: #1DA1F2;
+}
+
+#arrow {
+	width: 60px;
+	height: 60px;
+	margin-left: 15px;
+	margin-top: 35px;
+}
+
+#arrow:hover {
+	color: #60748d;
+	width: 60px;
+	height: 60px;
+	margin-left: 15px;
+	margin-top: 35px;
+
+#social{
+  color:#ffffff;
+}
+i {
+	color: white;
 }
